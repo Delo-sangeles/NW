@@ -1,0 +1,93 @@
+export const es = {
+  common: { location: 'Madrid, España' },
+  header: { badge: 'Dev IA', subtitle: 'Resumen del portfolio', langAria: 'Cambiar idioma' },
+  drawer: { title: 'Navegación' },
+  nav: {
+    hero: 'Inicio', about: 'Sobre mí', aiExp: 'Exp. IA', projects: 'Proyectos', career: 'Trayectoria',
+    skills: 'Habilidades', education: 'Formación', contact: 'Contacto', overview: 'Resumen', aiLabs: 'Lab IA',
+  },
+  hero: {
+    role: 'Desarrolladora de IA',
+    tagline: 'IA Generativa · Agentes · RAG',
+    badge: 'Orquestación multiagente',
+    status: 'Abierta a proyectos de IA de alto impacto',
+    learnMore: 'Saber más',
+    contactMe: 'Contáctame',
+    scroll: 'Desliza para explorar',
+  },
+  about: {
+    title: 'Sobre mí',
+    text: 'Desarrolladora de IA con experiencia en agentes, LLMs, RAG y automatización. Desarrollo soluciones con Python y FastAPI, desde la integración de modelos hasta el despliegue. Aporto experiencia en desarrollo web y visión de negocio.',
+    tagline: 'Uniendo el razonamiento de los modelos más avanzados con resultados reales para el negocio.',
+    highlights: [
+      { title: 'Madrid, España', text: 'Hub tecnológico europeo y disponibilidad en UTC+1' },
+      { title: 'IA Generativa', text: 'LLMs, flujos agénticos y sistemas de prompts adaptativos' },
+      { title: 'Tecnología full-stack', text: 'Python, FastAPI, APIs modernas y contenedores en producción' },
+      { title: 'Visión de negocio', text: 'Estrategia digital, métricas y diseño orientado al valor' },
+    ],
+  },
+  aiExp: {
+    title: 'Experiencia en IA',
+    subtitle: 'Despliegues de agentes autónomos y flujos de orquestación en primera línea.',
+    role: 'Desarrolladora de IA',
+    meta: 'Colaboración externa · Remoto',
+    date: '07/2026 - Actualidad',
+    description: 'Desarrollo e integración de agentes de IA y LLMs para automatizar tareas y procesos de negocio. Participación en flujos de agentes con Python y APIs para conectar modelos, aplicaciones y servicios.',
+  },
+  projects: {
+    title: 'Proyecto destacado',
+    badge: 'Laboratorio activo',
+    subtitle: 'Despliegue multiagente insignia con recuperación vectorial en vivo.',
+    name: 'Automatización de contenido social con IA',
+    description: 'Orquestación multiagente autónoma para generar, validar y publicar contenido en múltiples canales.',
+    status: 'Estado del equipo: Activo',
+    load: 'Carga: 42%',
+    blocks: [
+      { title: 'Orquestación', text: 'CrewAI integrado con Groq y Ollama para coordinar sub-agentes en paralelo (Investigador, Redactor, SEO, Planificador).' },
+      { title: 'Contexto y recuperación', text: 'RAG avanzado con LangChain y ChromaDB para fundamentar las respuestas con conocimiento del dominio.' },
+      { title: 'Backend y despliegue', text: 'Python, FastAPI y Supabase; contenedores con Docker y CI/CD automatizado en Render.' },
+    ],
+    cta: 'Ver arquitectura',
+    github: 'Ver código en GitHub',
+  },
+  career: {
+    title: 'Trayectoria',
+    subtitle: 'Desarrollo, arquitectura web moderna y estrategia técnica de negocio.',
+    items: [
+      { title: 'Desarrollo full-stack y marketing digital', text: 'Desarrollo y mantenimiento de soluciones web y apoyo a la transformación digital del negocio.' },
+      { title: 'Estrategia digital y ventas técnicas', text: 'Desarrollo web con WordPress y JavaScript. Prospección y gestión de clientes con enfoque en soluciones digitales.' },
+      { title: 'Desarrolladora de aplicaciones web', text: 'Frontend con Angular y arquitectura modular. Maquetación mobile-first con Bootstrap, Grid y Flexbox.' },
+    ],
+  },
+  skills: {
+    title: 'Matriz de habilidades',
+    subtitle: 'Desglose de nivel en IA, datos, backend y arquitecturas cloud.',
+    groups: ['IA generativa y agentes', 'Backend y datos', 'Frontend y UI', 'Cloud y automatización'],
+  },
+  education: {
+    title: 'Formación y certificaciones',
+    subtitle: 'Formación especializada continua en IA, Cloud y negocio internacional.',
+    items: [
+      { title: 'Certificación Profesional en Inteligencia Artificial', org: 'Factoría F5 · Madrid', text: 'Machine Learning, Deep Learning y Procesamiento del Lenguaje Natural (NLP). Power BI y SQL avanzado.' },
+      { title: 'Cloud Computing (AWS) con IA Generativa', org: 'EOI / Generation España · +400 h', text: 'Arquitectura cloud en AWS, infraestructura como código, inferencia en contenedores e integración de servicios de IA generativa.' },
+      { title: 'Licenciatura en Comercio Internacional', org: 'Universidad Alejandro de Humboldt · Caracas', text: 'Visión estratégica de negocio, operaciones internacionales, negociación comercial y economía digital basada en datos.' },
+    ],
+  },
+  languages: {
+    title: 'Idiomas',
+    subtitle: 'Comunicación efectiva en entornos de ingeniería diversos.',
+    items: [
+      { name: 'Español', level: 'Nativo' },
+      { name: 'Inglés', level: 'Conversacional' },
+    ],
+  },
+  contact: {
+    title: 'Conectemos',
+    text: '¿Tienes un reto de IA agéntica o buscas una desarrolladora de IA generativa? Construyamos juntos.',
+    email: 'Correo',
+    phone: 'Teléfono',
+    download: 'Descargar CV (PDF)',
+    subject: 'Solicitud de CV',
+  },
+  footer: { top: 'Volver arriba' },
+};
